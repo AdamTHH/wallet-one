@@ -1,6 +1,5 @@
 export const dynamic = 'force-dynamic'
 
-import { Timeline, TimelineConnector, TimelineContent, TimelineDescription, TimelineHeader, TimelineItem, TimelineTime, TimelineTitle } from "@/components/ui/timeline";
 import { db } from "@/db";
 import { newsTable, productsTable } from "@/db/schema";
 import CustomTimeline from "./customTimeline";
@@ -32,7 +31,7 @@ export default async function Hirfolyam() {
                     </ColorfulLabel>
                     <div className="mt-4"></div>
                     {(news.length > 0 ? news : defaultNews).map((item, index) => (
-                        <Button key={index} variant="link" className="text-xl break-words">
+                        <Button key={index} variant="link" className="text-xl break-all">
                             {item.title}
                         </Button>
                     ))}

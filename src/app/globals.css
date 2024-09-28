@@ -16,9 +16,11 @@
   color: #797979;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+html, body {
+  padding:0;
+  margin:0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 @layer components {
