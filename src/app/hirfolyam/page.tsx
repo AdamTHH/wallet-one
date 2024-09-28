@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { Timeline, TimelineConnector, TimelineContent, TimelineDescription, TimelineHeader, TimelineItem, TimelineTime, TimelineTitle } from "@/components/ui/timeline";
 import { db } from "@/db";
 import { newsTable, productsTable } from "@/db/schema";

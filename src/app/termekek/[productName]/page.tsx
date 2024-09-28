@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import React from 'react'
 import Image from 'next/image'
 import ColorfulLabel from '@/components/ColorfulLabel'

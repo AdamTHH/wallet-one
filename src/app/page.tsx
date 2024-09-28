@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import ColorfulLabel from "@/components/ColorfulLabel";
 import PageContainer from "@/components/PageContainer";
 import StackDrawer from "@/components/StackDrawer";
