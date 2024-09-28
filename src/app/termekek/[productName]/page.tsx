@@ -25,7 +25,8 @@ const ProductPage = async ({ params }: { params: { productName: string } }) => {
   return (
     <PageContainer>
       <div className="flex flex-col lg:flex-row items-center justify-center shadow-xl rounded-xl p-5">
-        <Image src={product.image} alt="Product Image" width={400} height={400} className="lg:w-1/3 lg:h-auto" />
+
+        <Image src={product.image || noImage} alt="Product Image" width={400} height={400} className="lg:w-1/3 lg:h-auto" />
         <div className="lg:ml-8 mt-4 lg:mt-0 text-center lg:text-left">
           <h1 className="text-xl font-bold">{product.title.toUpperCase().slice(0, 50)}</h1>
           <ColorfulLabel>

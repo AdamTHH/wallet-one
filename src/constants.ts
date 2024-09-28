@@ -1,7 +1,6 @@
 export const links: { title: string, href: string }[] = [
     { title: "Hírfolyam", href: "/hirfolyam" },
     { title: "Tesztek", href: "/tesztek" },
-    { title: "Kapcsolat", href: "/kapcsolat" },
 ]
 
 export const noImage = "https://t4.ftcdn.net/jpg/02/51/95/53/360_F_251955356_FAQH0U1y1TZw3ZcdPGybwUkH90a3VAhb.jpg"
